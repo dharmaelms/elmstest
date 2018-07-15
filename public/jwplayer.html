@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JwPlayer demo</title>
+	</head>
+	<body>
+		<script src="http://knowledgeportal.linkstreet.in/assets/js/jwplayer/jwplayer.js"></script>
+<script type="text/javascript">jwplayer.key="xNQvfj55sb/INzEpC+bCNZaLuUhzZkeDQCWSQ1KsL8k=";</script>
+<div id="player" ></div>
+<script type="text/javascript">
+    jwplayer("player").setup(
+    {
+        playlist: 
+        [
+            {
+                image:'http://knowledgeportal.linkstreet.in/uploads/videoThumbnails/video1_320x240_00h.00m.02s.png',
+                sources:[
+                    
+                        {
+                            file:'http://linkstreet-vh.akamaihd.net/i/educationplatform/delivery/21/95/219571f3-5f30-45a9-96a6-fa8664260a0a/video1_,5,7,1,3,00k.mp4.csmil/master.m3u8',
+                            type: 'hls',
+                        },
+                        {
+                            file:'http://linkstreet-vh.akamaihd.net/z/educationplatform/delivery/21/95/219571f3-5f30-45a9-96a6-fa8664260a0a/video1_,5,7,1,3,00k.mp4.csmil/manifest.f4m',
+                            provider: 'http://players.edgesuite.net/flash/plugins/jw/v3.7/AkamaiAdvancedJWStreamProvider.swf',
+                            type: 'flash',
+                        },
+                        {
+                            file:'http://linkstreet-vh.akamaihd.net/i/educationplatform/delivery/21/95/219571f3-5f30-45a9-96a6-fa8664260a0a/video1_,5,7,1,3,00k.mp4.csmil/master.m3u8',
+                            type: 'html5',
+                        },
+                    
+                ]
+            },        
+        ],
+        width:'100%',
+        stretching:'exactfit',
+        aspactratio:'16:9',
+        primary: "html5",
+        androidhls: "true",
+        fallback: "true",          
+    });
+    // Example handler to catch MediaError events from the JW provider
+    jwplayer().onError(function(evt) {
+        //console.log(evt.message);
+    });
+
+</script>
+	</body>
+</html>

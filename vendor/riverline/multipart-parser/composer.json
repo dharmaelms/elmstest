@@ -1,0 +1,28 @@
+{
+  "name":"riverline/multipart-parser",
+  "description":"One class library to parse multipart content with encoding and charset support.",
+  "keywords":["http","multipart","parser"],
+  "type":"library",
+  "license":"MIT",
+  "authors":[
+    {
+      "name":"Romain Cambien",
+      "email":"romain@riverline.fr"
+    },
+    {
+      "name":"Riverline",
+      "homepage":"http://www.riverline.fr"
+    }
+  ],
+  "require":{
+    "php":           ">=5.3"
+  },
+  "require-dev":{
+    "phpunit/phpunit": "^4.7 || ^5.2"
+  },
+  "autoload":{
+    "psr-0":{
+      "Riverline\\MultiPartParser": "src/"
+    }
+  }
+}

@@ -1,0 +1,174 @@
+.publish_on_id{
+		border-bottom: 1px solid #555;
+		height: 20px;
+	}
+	/* .ann_img_sty{
+	width:100% !important;
+	}*/
+	.page-title-bg
+	{
+		margin-bottom: 10px;
+	}
+	.publish_on_name{
+		float: left;
+	}
+	.publish_on_date{
+		float: right;
+	}
+	.announce-tabs img{
+		max-width: 100%;
+		max-height: 400px !important;
+	}
+
+	.dashboard .title
+	{
+		font-size: 22px;
+		font-weight: 300;
+	}
+
+	.l-gray
+	{
+		font-size: 12px;
+	}
+
+	.dashboard.l-gray
+	{
+		font-size: 20px;
+	}
+
+	.dashborad .sub-title
+	{
+		font-size: 13px;
+		font-weight: 300;
+	}
+
+	.custom-border-right
+	{
+		border-right: 1px solid rgba(180, 180, 180, 0.24);
+		min-height : 380px;
+	}
+
+	.announcement-container
+	{
+		margin : 4% 0%;
+	}
+
+	.title-border
+	{
+		margin-top: 2%;
+		margin-bottom: 4%;
+		border-bottom: 1px solid rgba(203, 203, 203, 0.42);
+		box-shadow: 0px 1px 0px 1px rgba(180, 180, 180, 0.24);
+	}
+
+	.announcement-img
+	{
+		max-width : 20%;
+	}
+
+	.announcement-title
+	{
+		max-width : 80%;
+	}
+
+	.announcement-img, .announcement-title
+	{
+		padding : 0% !important;
+	}
+
+	.announcement-border
+	{
+		border-bottom: 1px solid #CBCBCB;
+	}
+
+	.my-activity-content-title
+	{
+		font-weight: bold;
+		font-size: 15px;
+	}
+
+	.activity-container.first
+	{
+		margin: 8% 0% 0% 0%;
+	}
+
+	.activity-container.subsequent
+	{
+		margin: 4% 0% 0% 0%;
+	}
+
+	.activity-title
+	{
+		font-weight: bold;
+		font-size: 12px;
+		text-transform: uppercase;
+	}
+
+	.activity-container .channel-quiz-performance .content
+	{
+		font-style: italic;
+		padding: 2%;
+		margin: 3%;
+		border-bottom: 1px solid rgb(203, 203, 203);
+	}
+
+	.custom-calendar-wrap
+	{
+		margin: 0% 5% !important;
+	}
+
+	.custom-calendar-wrap .custom-header
+	{
+		padding : 0px 10px 5px 10px;
+	}
+
+	.fc-calendar-container
+	{
+		height: 200px !important;
+	}
+
+	.fc-calendar .fc-row > div > span.fc-date
+	{
+		font-size: 14px !important;
+	}
+
+	.fc-calendar .fc-row > div.fc-content:after
+	{
+		font-size: 50px !important;
+		line-height: 12px !important;
+		bottom: 0px !important;
+	}
+
+	.dashboard .sub-title-container
+	{
+		margin-top: 3%;
+	}
+
+	.event-container .event-data
+	{
+		margin: 3% 5% 1% 5%;
+	}
+
+	.event-container .event-data .title
+	{
+		font-weight: bold !important;
+		font-size: 12px !important;
+		text-transform: uppercase !important;
+	}
+
+	.event-container .event-data.content
+	{
+		margin: 0% 5% 1% 5%;
+	}
+
+	.activity-container .progress
+	{
+		border-radius : 4px !important;
+		margin: 2% 0%;
+	}
+
+	.activity-container .progress-bar
+	{
+		color : rgba(44, 44, 44, 0.55);;
+		font-weight : bold;
+	}

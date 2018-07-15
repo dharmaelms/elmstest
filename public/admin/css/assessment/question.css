@@ -1,0 +1,11 @@
+.editor-media
+{
+    margin-bottom: 5px;
+}
+
+.rich-text-content
+{
+    padding: 1.25%;
+    border: 1px solid #B9B7B7;
+    overflow: auto;
+}

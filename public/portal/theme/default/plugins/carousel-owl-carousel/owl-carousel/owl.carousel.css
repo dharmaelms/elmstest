@@ -1,0 +1,203 @@
+/* 
+ *  Core Owl Carousel CSS File
+ *  v1.3.2
+ */
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+/* display none until init */
+.owl-carousel{
+  display: none;
+  position: relative;
+  width: 100%;
+  -ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+  display: none;
+  position: relative;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+  -webkit-transition: height 500ms ease-in-out;
+  -moz-transition: height 500ms ease-in-out;
+  -ms-transition: height 500ms ease-in-out;
+  -o-transition: height 500ms ease-in-out;
+  transition: height 500ms ease-in-out;
+}
+  
+.owl-carousel .owl-item{
+  float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+  cursor: pointer;
+}
+.owl-controls {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility:    hidden;
+  -ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+    #owl-demo .item{
+    display: block;
+    /*padding: 30px 0px;*/
+    margin: 5px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    /*text-align: center;*/
+    }
+    .owl-theme .owl-controls .owl-buttons div {
+    padding: 5px 9px;
+    }
+     
+    .owl-theme .owl-buttons i{
+    margin-top: 2px;
+    }
+     
+    /*//To move navigation buttons outside use these settings:*/
+     
+    .owl-theme .owl-controls .owl-buttons div {
+    position: absolute;
+    }
+     
+    .owl-theme .owl-controls .owl-buttons .owl-prev{
+    left: -30px;
+    top: 50%; position: absolute;
+    }
+     
+    .owl-theme .owl-controls .owl-buttons .owl-next{
+    right: -30px;
+    top: 50%; position: absolute;
+    }
+
+    .nav-space {
+      padding:0 35px;
+    }
+@media(max-width: 399px) {
+  .home1 .upcoming-courses .owl-carousel .owl-item {
+    width: 234px !important;
+  }
+}
+
+@media (min-width: 400px) and (max-width:599px){
+  .nav-space{
+    padding: 0 10px;
+  }
+  .owl-theme .owl-controls .owl-buttons .owl-prev {
+    left: -21px;
+  }
+  .owl-theme .owl-controls .owl-buttons .owl-next {
+    right: -20px;
+  }
+}
+@media (min-width: 600px) and (max-width:767px){
+  .nav-space, .owl-carousel .owl-wrapper-outer{
+    padding: 0 25px;
+  }
+  .owl-theme .owl-controls .owl-buttons .owl-prev {
+    left: -33px;
+  }
+  .owl-theme .owl-controls .owl-buttons .owl-next {
+    right: -33px;
+  }
+  .dashboard .owl-carousel .owl-item, .category-list .owl-carousel .owl-item {
+    width: 220px !important;
+  }
+}
+@media (min-width: 768px) and (max-width:899px){
+  .nav-space, .home1 .nav-space1{
+    padding: 0 55px;
+  }
+  .owl-theme .owl-controls .owl-buttons .owl-prev {
+    left: -33px;
+  }
+  .owl-theme .owl-controls .owl-buttons .owl-next {
+    right: -33px;
+  }
+}
+@media (min-width: 1024px) and (max-width:1169px){
+  .nav-space, .home1 .nav-space1 {
+    padding: 0 0px;
+  }
+  .owl-theme .owl-controls .owl-buttons .owl-prev {
+    left: -20px;
+  }
+  .owl-theme .owl-controls .owl-buttons .owl-next {
+    right: -20px;
+  }
+}
+
+.owl-pagination {
+  display: none;
+}
+
+.dashboard .owl-carousel .owl-item, .category-list .owl-carousel .owl-item {
+    width: 220px !important;
+  }
+.owl-carousel .owl-item .pckg-name{
+  top: 105px;
+}
+
+.cf-packets .owl-carousel .owl-item { padding: 4px 10px; }
+
+/*dashboard6*/
+.dashboard6 .owl-carousel .owl-item, .dashboard6 .nav-space .owl-item { width: 220px !important; }
+
+@media (min-width: 1170px){
+  .dashboard6 .owl-theme .owl-controls .owl-buttons .owl-next { right: -20px;top: 38%; }
+  .dashboard6 .owl-theme .owl-controls .owl-buttons .owl-prev { left: -20px;top: 38%; }
+  .dashboard6 .owl-carousel .owl-item, .dashboard6 .nav-space .owl-item { width: 208px !important; }
+  .dashboard6 .nav-space { padding: 0 12px; }
+}
+
+@media(min-width: 768px) and (max-width: 1169px){
+  .dashboard6 .nav-space { padding: 0 30px; }
+  .dashboard6 .owl-theme .owl-controls .owl-buttons .owl-prev { left: -30px; }
+  .dashboard6 .owl-theme .owl-controls .owl-buttons .owl-next { right: -30px; }
+}
+@media(min-width: 600px) and (max-width: 767px){
+  .dashboard6 .nav-space { padding: 0 12px !important; }
+  .dashboard6 .owl-carousel .owl-wrapper-outer { padding: 0 !important; }
+}
+@media(min-width: 400px) and (max-width: 599px){
+  .dashboard6 .nav-space { padding: 0; }
+}
+@media(max-width: 399px){
+  .dashboard6 .nav-space { padding: 0 30px; }
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+  .dashboard6 .owl-carousel .owl-item, .dashboard6 .nav-space .owl-item { width: 208px !important;} 
+} 

@@ -1,0 +1,68 @@
+	/*******************CSS For Dashboard12*******************/
+	.page-content-wrapper .page-content { margin-left: 0 !important; }
+    .page-sidebar.navbar-collapse { display: none !important; max-height: none !important; }
+    .page-header.navbar .menu-toggler.sidebar-toggler , .page-bar{ display: none; }
+    #programs tr th:nth-child(2), #programs tr td:nth-child(2){display: none;}
+    .label{display: none;}
+    .table thead tr th{font-size: 15px;}
+    .table tbody tr td{font-size: 14px;}
+    .progress-bar{text-align: left;text-indent: 10px;}
+    #programs tr td, #posts tr td, #quiz tr td{text-overflow: ellipsis;white-space: nowrap;}
+    #announcement .black{font-size: 14px !important;}
+    @media all and (min-width: 1401px), (min-device-width: 1401px){
+    	#programs tr th:nth-child(2){width: 20% !important;}
+    	#programs tr th:nth-child(4){width: 13% !important;}
+    	#programs tr th:nth-child(5){width: 15% !important;}
+    	#posts tr th:nth-child(1){width: 35% !important;}
+    	#posts tr th:nth-child(3){width: 12% !important;}
+    	#posts tr th:nth-child(4){width: 15% !important;}
+    }
+
+
+	/*******************CSS For Dashboard13*******************/
+   .packet{min-height: auto;}
+  .packet-img-cont-dashboard7, .packet-img-cont-dashboard10{height: 112px;}
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+      .packet-img-cont-dashboard10 {
+        height: 105px !important;
+      }
+      }
+      @-moz-document url-prefix() {
+      .dashboard10 .packet-container-dashboard10 {
+      margin: 0px;
+      width: 175px !important;
+      }
+      .dashboard10 .packet-title-dashboard10{margin: 0px !important;margin-bottom: 3px !important;}
+      }
+  .dashboard10 .packet-title-dashboard10{height: 50px;overflow: hidden;}
+  .dashboard-catagory-layer{background: #eb6e44;text-align: center;font-size: 12px;color: #fff;}
+
+
+
+	/*******************CSS For Dashboard14*******************/
+        .height33{
+            height: 33px;
+        }
+        .btn-view{color: #fff !important;margin-right: 10px;}
+        .btn-view:hover{color: #fff !important;}
+        .panel-body1{padding: 30px 0px;}
+        .up-down-arrow{padding: 15px !important;}
+        .dashboard7 .packet-title-dashboard7{height: 50px;overflow: hidden;}
+        .content-row-dashboard7, .packet-container-dashboard7{width: 175px;}
+        .packet-img-cont-dashboard7, .packet-img-cont-dashboard10{height: 112px;}
+        .packet-container-dashboard7{min-height: auto;}
+        @-moz-document url-prefix() {
+            .packet-title .packet-title-dashboard7 {
+            margin:0px !important;
+            }
+            }
+            @media screen and (-webkit-min-device-pixel-ratio:0) {
+      .packet-img-cont-dashboard7, .packet-img-cont-dashboard10 {
+        height: 105px !important;
+
+      }
+      .packet-title-dashboard7 {
+            margin: 0px !important;margin-bottom: 20px !important;
+            }
+            .packet-container-dashboard7{min-height: 160px !important;}
+      }

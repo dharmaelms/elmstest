@@ -1,0 +1,141 @@
+/**
+ * jquery-bootstrap-scrolling-tabs
+ * @version v0.0.3
+ * @link https://github.com/mikejacobson/jquery-bootstrap-scrolling-tabs
+ * @author Mike Jacobson <michaeljjacobson1@gmail.com>
+ * @license MIT License, http://www.opensource.org/licenses/MIT
+ */
+/* line 13, jquery.scrolling-tabs.scss */
+.scrtabs-tab-container * {
+  box-sizing: border-box;
+}
+
+/* line 17, jquery.scrolling-tabs.scss */
+.scrtabs-tab-container {
+  height: 42px;
+}
+/* line 19, jquery.scrolling-tabs.scss */
+.scrtabs-tab-container .tab-content {
+  clear: left;
+}
+
+/* line 24, jquery.scrolling-tabs.scss */
+.scrtabs-tabs-fixed-container {
+  float: left;
+  /*height: 42px;*/ height: 34px;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* line 31, jquery.scrolling-tabs.scss */
+.scrtabs-tabs-movable-container {
+  position: relative;
+}
+/* line 33, jquery.scrolling-tabs.scss */
+.scrtabs-tabs-movable-container .tab-content {
+  display: none;
+}
+
+/* line 38, jquery.scrolling-tabs.scss */
+.scrtabs-tab-scroll-arrow {
+  color: #333333; background-color: #cccccc;
+  cursor: pointer;
+  float: left;
+  font-size: 12px;
+  height: 33px;
+  margin-bottom: -1px;
+  padding-left: 12px;
+  padding-top: 9px;
+  width: 30px;
+}
+.scrtabs-tab-scroll-arrow .fa {
+  font-size: 21px; 
+}
+/* line 50, jquery.scrolling-tabs.scss */
+.scrtabs-tab-scroll-arrow:hover {
+  background-color: #cccccc;
+  color: #333333
+}
+
+/* line 55, jquery.scrolling-tabs.scss */
+.scrtabs-tabs-fixed-container ul.nav-tabs {
+  /*height: 41px;*/ height: 34px;
+}
+/* line 57, jquery.scrolling-tabs.scss */
+.scrtabs-tabs-fixed-container ul.nav-tabs > li {
+  white-space: nowrap;
+}
+
+/* line 63, jquery.scrolling-tabs.scss */
+.scrtabs-tab-content-outside-movable-container .nav-tabs {
+  display: none;
+}
+
+.scrtabs-tabs-fixed-container .nav > li > a {
+  color: #ffffff;
+  /*padding: 10px 20px;*/ padding:5.5px 14px;
+  background-color: #555555;font-weight: 600;
+}
+.scrtabs-tabs-fixed-container .nav > li.active > a{
+  color: #ffffff;font-weight: 600;
+  /*background-color: #50b8e6;*/ background-color: #428bca;
+}
+
+#jquery-script-menu .tab-content > .tab-pane {
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 25px;
+}
+
+#jquery-script-menu {
+/*    background: #ffffff none repeat scroll 0 0;
+    border-top: 5px solid #316594;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16);
+    box-sizing: content-box;
+    height: 90px;
+    left: 0;*/
+    padding: 10px 0;
+   /* position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999999;*/
+}
+.jquery-script-center {
+    margin: 0 auto;
+    width: 960px;
+}
+.jquery-script-center ul {
+    float: left;
+    line-height: 45px;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    width: 212px;
+}
+.jquery-script-center a {
+    text-decoration: none;
+}
+.jquery-script-ads {
+    float: right;
+    height: 90px;
+    width: 728px;
+}
+.jquery-script-clear {
+    clear: both;
+    height: 0;
+}
+
+@media(min-width: 800px) and (max-width: 1170px) {
+  .scrtabs-tab-scroll-arrow {height: 34.3px !important;margin-bottom: 0 !important;padding-left: 9px !important;width: 24px !important;
+  }
+  .scrtabs-js-tab-scroll-arrow-right{
+    float: right;
+    margin-top: -42px;
+  }
+}
+
+@media(min-width: 1300px){
+  .scrtabs-js-tab-scroll-arrow-right{
+    float: right;
+    /*margin-top: -42px;*/
+  }
+}

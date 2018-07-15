@@ -1,0 +1,96 @@
+.for-margin{
+        margin-top: 5px;
+        /*padding-top: 50px;*/
+        padding-left: 10px;
+    }
+    .content{
+        margin-top: 0px;
+
+    }
+    .big{
+        font-size: 30px;
+        padding: 0px !important;
+        margin-top: 0px !important;
+    }
+    .btn-large{
+    text-align: center;
+    width: 165px !important;
+    margin: 3px;
+    word-wrap: normal;
+    line-height: 1;
+    white-space: normal !important;
+    vertical-align: top;
+    display: table-cell;
+    border: 5px solid #37383c;
+    }
+    @media(max-width: 900px){
+        .btn-large {
+            display: inline-block;
+            height: 80px;
+        }
+    }
+    .btn-custom .btn:hover{
+        background-color: #ebebeb;
+        cursor: default;
+    }
+    .tbl-head {
+        background-color: #3a4751 !important;
+        color: white !important;
+    }
+    .modal-width {
+        width: 60%;
+    }
+    .modal-table-data {
+        width:100%;
+    }
+    /**************** Some additional css *****************/
+    .dashWidth900{width: 900px;}
+    .dashWidth600{width: 600px;}
+    .dashHeight300{height: 300px;overflow-y: auto;}
+    .dashHeight450{height: 300px;overflow-y: auto;}
+    .modal-table-data{margin-left: 0px !important;}
+    #datatable{margin-top: 15px !important;margin-bottom: 15px !important;}
+    #datatable tr td,#datatable tr th{text-align: left !important;word-break: break-all;border: 1px solid #ddd;}
+    #datatable tr th{font-size: 14px;}
+    #new-user-table-content #datatable tr td,#new-user-table-content #datatable tr th{width: 33.33%;}
+    #new-post-table-content #datatable tr td,#new-post-table-content #datatable tr th{width: 50%;}
+    #access-request-table-content #datatable tr td,#access-request-table-content #datatable tr th{width: 50%;}
+    #active-feed-table-content #datatable tr td,#active-feed-table-content #datatable tr th{width: 50%;}
+    #active-users-table-content #datatable tr td,#active-users-table-content #datatable tr th{width: 33.33%;}
+    #new-announcement-table-content #datatable tr td,#new-announcement-table-content #datatable tr th{width: 50%;}
+    #new-feed-table-content #datatable tr td,#new-feed-table-content #datatable tr th{width: 50%;}
+    #new-event-table-content #datatable tr td,#new-event-table-content #datatable tr th{width: 50%;}
+    #new-items-table-content #datatable tr td,#new-items-table-content #datatable tr th{width: 50%;}
+
+
+
+
+
+
+
+
+    @media all and (max-width: 991px), (max-device-width: 991px){
+        .modal-content{width: 100% !important;}
+        #datatable thead tr th{background: #ddd !important}
+        .modal-body{height: 300px !important;}
+        #datatable tr td,#datatable tr th{text-align: center !important;}
+    }
+    .modal-body{max-height: 490px !important;height: auto !important;min-height: 150px !important;}
+    @media all and (min-width: 1200px), (min-device-width: 1200px){
+        #datatable tr td,#datatable tr th{min-width: 100px;}
+    }
+    @media all and (min-width: 320px) and (max-width: 400px), (min-device-width: 320px) and (max-device-width: 400px){
+        #datatable thead{width: 90% !important;}
+    }
+    @media all and (min-width: 401px) and (max-width: 480px), (min-device-width: 401px) and (max-device-width: 480px){
+        #datatable thead{width: 93% !important;}
+    }
+    @media all and (min-width: 481px) and (max-width: 649px), (min-device-width: 481px) and (max-device-width: 649px){
+        #datatable thead{width: 94% !important;}
+    }
+    @media all and (min-width: 650px) and (max-width: 767px), (min-device-width: 650px) and (max-device-width: 767px){
+        #datatable thead{width: 95.5% !important;}
+    }
+    @media all and (min-width: 768px) and (max-width: 991), (min-device-width: 768px) and (max-device-width: 991px){
+        #datatable thead{width: 95% !important;}
+    }
